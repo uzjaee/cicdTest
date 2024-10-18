@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ECR_NAMESPACE: sparta
+  ECR_NAMESPACE: cicdtest
 
 jobs:
   build:

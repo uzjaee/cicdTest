@@ -2,7 +2,7 @@
 services:
   server:
     build:
-      dockerfile: Dockerfile
+      dockerfile: ./Dockerfile
       args:
         - FILE_DIRECTORY=./server
     # 빌드 시에 해당 Image 이름으로 build된다.
