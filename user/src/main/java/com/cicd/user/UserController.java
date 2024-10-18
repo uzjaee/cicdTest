@@ -10,4 +10,9 @@ public class UserController {
     public String getUser(@PathVariable("userId") String userId) {
         return "Hello" + userId + "user!";
     }
+
+    @GetMapping("/users/me")
+    public String getMe() {
+        return "me!";
+    }
 }
